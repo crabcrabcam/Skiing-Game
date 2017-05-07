@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=1]
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 539.44, 7.97711 )
+
+[node name="Flags" type="Node2D"]
+
+editor/display_folded = true
+transform/pos = Vector2( 471.52, -119.762 )
+
+[node name="Area2D" type="Area2D" parent="."]
+
+input/pickable = true
+shapes/0/shape = SubResource( 3 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, -0.598755, 2.9937 )
+shapes/0/trigger = false
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+
+transform/pos = Vector2( -0.598755, 2.9937 )
+shape = SubResource( 3 )
+trigger = false
+_update_shape_index = 0
+
+

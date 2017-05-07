@@ -1,0 +1,277 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://Sprites/Tileset.png" type="Texture" id=1]
+
+[node name="Snow" type="Node2D"]
+
+transform/pos = Vector2( -23.2687, -27.7009 )
+
+[node name="OneLine" type="Node2D" parent="."]
+
+editor/display_folded = true
+
+[node name="Centre" type="Sprite" parent="OneLine"]
+
+transform/pos = Vector2( 118.01, 39.6062 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre2" type="Sprite" parent="OneLine"]
+
+transform/pos = Vector2( 213.846, 39.6062 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre3" type="Sprite" parent="OneLine"]
+
+transform/pos = Vector2( 309.532, 39.6062 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Right" type="Sprite" parent="OneLine"]
+
+transform/pos = Vector2( 404.662, 39.6062 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 64, 0, 32, 32 )
+
+[node name="Left" type="Sprite" parent="OneLine"]
+
+transform/pos = Vector2( 22.086, 39.6062 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="OneLine3" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 0, 288.197 )
+
+[node name="Centre" type="Sprite" parent="OneLine3"]
+
+transform/pos = Vector2( 118.01, 39.6063 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre2" type="Sprite" parent="OneLine3"]
+
+transform/pos = Vector2( 213.846, 39.6063 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre3" type="Sprite" parent="OneLine3"]
+
+transform/pos = Vector2( 309.532, 39.6063 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Right" type="Sprite" parent="OneLine3"]
+
+transform/pos = Vector2( 404.662, 39.6063 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 64, 0, 32, 32 )
+
+[node name="Left" type="Sprite" parent="OneLine3"]
+
+transform/pos = Vector2( 22.086, 39.6063 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="OneLine1" type="Node2D" parent="."]
+
+editor/display_folded = true
+
+[node name="Centre" type="Sprite" parent="OneLine1"]
+
+transform/pos = Vector2( 118.01, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre2" type="Sprite" parent="OneLine1"]
+
+transform/pos = Vector2( 213.846, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre3" type="Sprite" parent="OneLine1"]
+
+transform/pos = Vector2( 309.532, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Right" type="Sprite" parent="OneLine1"]
+
+transform/pos = Vector2( 404.662, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 64, 0, 32, 32 )
+
+[node name="Left" type="Sprite" parent="OneLine1"]
+
+transform/pos = Vector2( 22.086, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="OneLine3 2" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 0, 288.197 )
+
+[node name="Centre" type="Sprite" parent="OneLine3 2"]
+
+transform/pos = Vector2( 118.01, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre2" type="Sprite" parent="OneLine3 2"]
+
+transform/pos = Vector2( 213.846, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre3" type="Sprite" parent="OneLine3 2"]
+
+transform/pos = Vector2( 309.532, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Right" type="Sprite" parent="OneLine3 2"]
+
+transform/pos = Vector2( 404.662, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 64, 0, 32, 32 )
+
+[node name="Left" type="Sprite" parent="OneLine3 2"]
+
+transform/pos = Vector2( 22.086, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="OneLine2" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 0, 96 )
+
+[node name="Centre" type="Sprite" parent="OneLine2"]
+
+transform/pos = Vector2( 118.01, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre2" type="Sprite" parent="OneLine2"]
+
+transform/pos = Vector2( 213.846, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre3" type="Sprite" parent="OneLine2"]
+
+transform/pos = Vector2( 309.532, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Right" type="Sprite" parent="OneLine2"]
+
+transform/pos = Vector2( 404.662, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 64, 0, 32, 32 )
+
+[node name="Left" type="Sprite" parent="OneLine2"]
+
+transform/pos = Vector2( 22.086, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="OneLine3 3" type="Node2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 0, 384.197 )
+
+[node name="Centre" type="Sprite" parent="OneLine3 3"]
+
+transform/pos = Vector2( 118.01, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre2" type="Sprite" parent="OneLine3 3"]
+
+transform/pos = Vector2( 213.846, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre3" type="Sprite" parent="OneLine3 3"]
+
+transform/pos = Vector2( 309.532, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Right" type="Sprite" parent="OneLine3 3"]
+
+transform/pos = Vector2( 404.662, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 64, 0, 32, 32 )
+
+[node name="Left" type="Sprite" parent="OneLine3 3"]
+
+transform/pos = Vector2( 22.086, 135.606 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 0, 0, 32, 32 )
+
+

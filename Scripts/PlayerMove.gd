@@ -72,3 +72,9 @@ func _on_flag_body_enter( body ):
 	print("Entered")
 	print(body)
 	#RUN GAME OVER HERE
+
+
+signal point_up
+func _on_point_up_body_enter( body ):
+	emit_signal("point_up")
+	pass
