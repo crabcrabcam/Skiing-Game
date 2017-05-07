@@ -13,9 +13,12 @@ const ACCELERATION = 1000
 const DECCELERATION = 2000
 const MAX_SPEED = 600
 const MAX_DOWN_SPEED = 200
-const GRAVITY = 1
+#const GRAVITY = 1
 
 func _ready():
+	print("Accel")
+	print(Input.get_accelerometer())
+	
 	set_process(true)
 	
 #Update
@@ -43,16 +46,29 @@ func _process(delta):
 		speed_x -= DECCELERATION * delta
 	
 	#Adds gravity
-	speed_y += GRAVITY * delta
+	#speed_y = 
 	
 	#So speed can't go over max_speed
 	#Check first isn't below second, or above first
 	#Because speed is always positive and then we multiply by direction it's fine to have the lower one be 0.
 	#If we were only using speed as the direction and just setting it to negative for left then we'd set the second arg as -MAX_SPEED.
 	speed_x = clamp(speed_x, 0, MAX_SPEED)
-	speed_y = clamp(speed_y, 0, MAX_DOWN_SPEED)
 
 	velocity.y = speed_y * delta
 	velocity.x = speed_x * delta * direction
 
 	move(velocity)
+	
+
+#When the player gets a speed
+func _on_World_send_speed(speed):
+	print("Speed")
+	print(speed)
+	speed_y = speed
+
+
+#When the player enters the flag body
+func _on_flag_body_enter( body ):
+	print("Entered")
+	print(body)
+	#RUN GAME OVER HERE
