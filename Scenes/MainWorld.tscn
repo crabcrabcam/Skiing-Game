@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=1]
+[gd_scene load_steps=10 format=1]
 
 [ext_resource path="res://Scripts/MainWorld.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/PlayerMove.gd" type="Script" id=2]
@@ -16,6 +16,11 @@ extents = Vector2( 32.0699, 31.9222 )
 
 custom_solver_bias = 0.0
 extents = Vector2( 14.1714, 10 )
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 539.44, 7.97711 )
 
 [node name="World" type="Node2D"]
 
@@ -44,6 +49,8 @@ _update_shape_index = 0
 texture = ExtResource( 3 )
 
 [node name="Snow" type="Node2D" parent="."]
+
+transform/pos = Vector2( -23.2687, -27.7009 )
 
 [node name="OneLine" type="Node2D" parent="Snow"]
 
@@ -89,6 +96,51 @@ texture = ExtResource( 4 )
 region = true
 region_rect = Rect2( 0, 0, 32, 32 )
 
+[node name="OneLine3" type="Node2D" parent="Snow"]
+
+editor/display_folded = true
+transform/pos = Vector2( 0, 288.197 )
+
+[node name="Centre" type="Sprite" parent="Snow/OneLine3"]
+
+transform/pos = Vector2( 384.581, -87.5276 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre2" type="Sprite" parent="Snow/OneLine3"]
+
+transform/pos = Vector2( 480.417, -87.5276 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre3" type="Sprite" parent="Snow/OneLine3"]
+
+transform/pos = Vector2( 576.103, -87.5276 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Right" type="Sprite" parent="Snow/OneLine3"]
+
+transform/pos = Vector2( 671.233, -87.5276 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 64, 0, 32, 32 )
+
+[node name="Left" type="Sprite" parent="Snow/OneLine3"]
+
+transform/pos = Vector2( 288.657, -87.5276 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 0, 0, 32, 32 )
+
 [node name="OneLine1" type="Node2D" parent="Snow"]
 
 editor/display_folded = true
@@ -126,6 +178,51 @@ region = true
 region_rect = Rect2( 64, 0, 32, 32 )
 
 [node name="Left" type="Sprite" parent="Snow/OneLine1"]
+
+transform/pos = Vector2( 288.657, 8.47241 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="OneLine3 2" type="Node2D" parent="Snow"]
+
+editor/display_folded = true
+transform/pos = Vector2( 0, 288.197 )
+
+[node name="Centre" type="Sprite" parent="Snow/OneLine3 2"]
+
+transform/pos = Vector2( 384.581, 8.47241 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre2" type="Sprite" parent="Snow/OneLine3 2"]
+
+transform/pos = Vector2( 480.417, 8.47241 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre3" type="Sprite" parent="Snow/OneLine3 2"]
+
+transform/pos = Vector2( 576.103, 8.47241 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Right" type="Sprite" parent="Snow/OneLine3 2"]
+
+transform/pos = Vector2( 671.233, 8.47241 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 64, 0, 32, 32 )
+
+[node name="Left" type="Sprite" parent="Snow/OneLine3 2"]
 
 transform/pos = Vector2( 288.657, 8.47241 )
 transform/scale = Vector2( 3, 3 )
@@ -178,6 +275,51 @@ texture = ExtResource( 4 )
 region = true
 region_rect = Rect2( 0, 0, 32, 32 )
 
+[node name="OneLine3 3" type="Node2D" parent="Snow"]
+
+editor/display_folded = true
+transform/pos = Vector2( 0, 384.197 )
+
+[node name="Centre" type="Sprite" parent="Snow/OneLine3 3"]
+
+transform/pos = Vector2( 384.581, 8.47241 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre2" type="Sprite" parent="Snow/OneLine3 3"]
+
+transform/pos = Vector2( 480.417, 8.47241 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Centre3" type="Sprite" parent="Snow/OneLine3 3"]
+
+transform/pos = Vector2( 576.103, 8.47241 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 32, 0, 32, 32 )
+
+[node name="Right" type="Sprite" parent="Snow/OneLine3 3"]
+
+transform/pos = Vector2( 671.233, 8.47241 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 64, 0, 32, 32 )
+
+[node name="Left" type="Sprite" parent="Snow/OneLine3 3"]
+
+transform/pos = Vector2( 288.657, 8.47241 )
+transform/scale = Vector2( 3, 3 )
+texture = ExtResource( 4 )
+region = true
+region_rect = Rect2( 0, 0, 32, 32 )
+
 [node name="Non Game" type="Node2D" parent="."]
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="Non Game"]
@@ -210,10 +352,11 @@ drag_margin/bottom = 0.2
 
 [node name="Flags" type="Node2D" parent="."]
 
-transform/pos = Vector2( 59, -148 )
+transform/pos = Vector2( 471.52, -119.762 )
 
 [node name="LeftFlag" type="StaticBody2D" parent="Flags"]
 
+transform/pos = Vector2( -71.2088, -12.2774 )
 input/pickable = false
 collision/layers = 1
 collision/mask = 1
@@ -231,7 +374,7 @@ region_rect = Rect2( 96, 0, 32, 32 )
 
 [node name="Area2D" type="Area2D" parent="Flags/LeftFlag"]
 
-transform/pos = Vector2( 91, -1 )
+transform/pos = Vector2( -17, 0 )
 input/pickable = true
 shapes/0/shape = SubResource( 2 )
 shapes/0/transform = Matrix32( 1, 0, 0, 2.66298, 6.74419, 10.3991 )
@@ -252,7 +395,7 @@ _update_shape_index = 0
 
 [node name="RightFlag" type="StaticBody2D" parent="Flags"]
 
-transform/pos = Vector2( 91, -1 )
+transform/pos = Vector2( 63.9898, -12.0496 )
 input/pickable = false
 collision/layers = 1
 collision/mask = 1
@@ -268,9 +411,8 @@ texture = ExtResource( 4 )
 region = true
 region_rect = Rect2( 128, 0, 32, 32 )
 
-[node name="Area2D" type="Area2D" parent="Flags/RightFlag"]
+[node name="Area2D 2" type="Area2D" parent="Flags/RightFlag"]
 
-transform/pos = Vector2( -108, 1 )
 input/pickable = true
 shapes/0/shape = SubResource( 2 )
 shapes/0/transform = Matrix32( 1, 0, 0, 2.66298, 6.74419, 10.3991 )
@@ -281,11 +423,28 @@ linear_damp = 0.1
 angular_damp = 1.0
 script/script = ExtResource( 6 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Flags/RightFlag/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Flags/RightFlag/Area2D 2"]
 
 transform/pos = Vector2( 6.74419, 10.3991 )
 transform/scale = Vector2( 1, 2.66298 )
 shape = SubResource( 2 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Area2D" type="Area2D" parent="Flags"]
+
+input/pickable = true
+shapes/0/shape = SubResource( 3 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Flags/Area2D"]
+
+shape = SubResource( 3 )
 trigger = false
 _update_shape_index = 0
 
@@ -295,6 +454,6 @@ _update_shape_index = 0
 
 [connection signal="body_enter" from="Flags/LeftFlag/Area2D" to="KinematicBody2D" method="_on_flag_body_enter"]
 
-[connection signal="body_enter" from="Flags/RightFlag/Area2D" to="KinematicBody2D" method="_on_flag_body_enter"]
+[connection signal="body_enter" from="Flags/RightFlag/Area2D 2" to="KinematicBody2D" method="_on_flag_body_enter"]
 
 

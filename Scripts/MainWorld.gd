@@ -13,12 +13,17 @@ signal send_speed
 onready var snow = get_node("Snow")
 
 func _ready():
+	print(snow)
+	var snowInstance = snow.instance()
+	snowInstance.set_pos(Vector2(10, 10))
+	print(snowInstance)
+	
 	emit_signal("send_speed", current_speed)
 
 
 func on_score_up():
 	emit_signal("send_speed", current_speed)
-	self.add_child(snow)
+	
 	
 func spawn_flags():
 	var left_flag = get_node("LeftFlag")
